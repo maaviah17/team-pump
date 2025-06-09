@@ -261,7 +261,7 @@ const Navbar = () => {
             className="inline-flex items-center justify-center px-6 py-2 rounded-md bg-[#BE0000] text-white font-semibold hover:bg-red-700 transition-colors ml-4"
             style={{ minWidth: "191px", height: "95px" }}
           >
-            Contact Us
+            Contact Us 
           </a>
         </div>
       </div>
