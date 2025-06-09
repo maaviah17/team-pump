@@ -139,10 +139,10 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 bg-white shadow-sm z-50 w-full">
-      {/* Full width nav container with no horizontal padding */}
+
       <div className="flex justify-between items-center h-[90px] w-full max-w-screen-2xl mx-auto">
         
-        {/* Left side logos - flush left */}
+
         <div className="flex items-center space-x-6 pl-0">
           <img
             src="./images/about/logo.png"
@@ -158,7 +158,7 @@ const Navbar = () => {
           />
         </div>
 
-        {/* Right side nav, search, and contact button - flush right */}
+  
         <div className="flex items-center space-x-8 pr-0">
           {/* Search icon */}
           <button
@@ -181,7 +181,6 @@ const Navbar = () => {
             </svg>
           </button>
 
-          {/* Nav links */}
           <ul className="flex items-center space-x-6 text-gray-700 font-medium text-base whitespace-nowrap">
             <li className="relative">
               <button
@@ -269,5 +268,8 @@ const Navbar = () => {
     </nav>
   );
 };
+
+
+// comment
 
 export default Navbar;
